@@ -43,7 +43,7 @@ This will create a subfolder named **plan** with similar structure you had in Nu
 - Every file that is in the same format as the **index.md** file will be considered as an index-file
 - Every index-file, beside **index.md** represents a subfolder
 - In the **plan** folder IDs has been removed from folder names, but they are still present as suffix on .md files, do not remove them manually, or the execution will mess up your page-names
-
+- Avoid name-duplication! (pages with the same names in **other** Spaces won't be a problem)
 - When you satisfied with the plan you can run
 ```SHELL
 python3 import.py SPACKEY path/to/export/folder execute
